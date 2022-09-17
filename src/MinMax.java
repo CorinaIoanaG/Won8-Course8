@@ -12,7 +12,7 @@ public class MinMax {
             System.out.println("The minimum from the maxims is: " + findMin(maxList));
         }
     }
-
+// Calculate maxim from one line
     private static Integer findMax(Integer[] listRow) {
         if (listRow != null) {
             Integer maxim = Integer.MIN_VALUE;
@@ -26,7 +26,7 @@ public class MinMax {
             return null;
         }
     }
-
+// Calculate mimim from one line
     private static Integer findMin(Integer[] listRow) {
         if (listRow != null) {
             Integer minim = Integer.MAX_VALUE;
