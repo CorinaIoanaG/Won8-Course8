@@ -1,0 +1,48 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -2,7 +2,7 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="47543f7a-33e6-49e1-b320-5f3da4a96c32" name="Changes" comment="First Commit">
+-      <change beforePath="$PROJECT_DIR$/src/MinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MinMax.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -94,7 +94,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1663433164367</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="First Commit">
++      <created>1663433415707</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1663433415707</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -126,12 +133,12 @@
+             <list>
+               <RecentGroup>
+                 <option name="FILTER_VALUES">
+-                  <option value="master" />
++                  <option value="origin/master" />
+                 </option>
+               </RecentGroup>
+               <RecentGroup>
+                 <option name="FILTER_VALUES">
+-                  <option value="origin/master" />
++                  <option value="master" />
+                 </option>
+               </RecentGroup>
+               <RecentGroup>
