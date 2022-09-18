@@ -54,13 +54,12 @@ public class Employee implements Person {
     public String getFullName() {
         return this.firstName + " " + this.lastName;
     }
-    public int getAge(){
+
+    public int getAge() {
         LocalDateTime localDateTime = LocalDateTime.now();
-        if (this.birthday.getMonth() == localDateTime.getMonthValue()){
-            if (localDateTime.getDayOfMonth() < this.birthday.getDate()) {
-                return localDateTime.getYear()-this.birthday.getYear()-1;
-            }
+        if (this.birthday.getMonth() == localDateTime.getMonthValue() && localDateTime.getDayOfMonth() < this.birthday.getDate()) {
+            return localDateTime.getYear() - this.birthday.getYear() - 1;
         }
-        return localDateTime.getYear()-this.birthday.getYear();
+        return localDateTime.getYear() - this.birthday.getYear();
     }
 }

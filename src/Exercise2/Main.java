@@ -11,7 +11,7 @@ public class Main {
                 employee1.getPosition(), employee1.getAdress()));
 
         Employee employee2 = new DatabaseAdmin("Andrei", "Daraban", new Date(1987, 9, 25),
-                "Cluj-Napoca", new Date(2022,7,15),"database admin");
+                "Cluj-Napoca", new Date(2022, 7, 15), "database admin");
         ((DatabaseAdmin) employee2).dbTechnology = "SQL";
         System.out.println(String.format("%s %d years old, %s, %s", employee2.getFullName(), employee2.getAge(),
                 employee2.getAdress(), ((DatabaseAdmin) employee2).dbTechnology));
