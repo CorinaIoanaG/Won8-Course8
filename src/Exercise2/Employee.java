@@ -57,9 +57,12 @@ public class Employee implements Person {
 
     public int getAge() {
         LocalDateTime localDateTime = LocalDateTime.now();
-        if (this.birthday.getMonth() == localDateTime.getMonthValue() && localDateTime.getDayOfMonth() < this.birthday.getDate()) {
-            return localDateTime.getYear() - this.birthday.getYear() - 1;
+        if (this.birthday.getMonth() < localDateTime.getMonthValue()) {
+            return localDateTime.getYear() - this.birthday.getYear();
         }
-        return localDateTime.getYear() - this.birthday.getYear();
+        if (this.birthday.getMonth() == localDateTime.getMonthValue() && this.birthday.getDate() < localDateTime.getDayOfMonth()) {
+            return localDateTime.getYear() - this.birthday.getYear();
+        }
+        return localDateTime.getYear() - this.birthday.getYear() - 1;
     }
 }
